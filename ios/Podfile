@@ -1,0 +1,89 @@
+# Uncomment this line to define a global platform for your project
+platform :ios, '15.5'
+
+# CocoaPods analytics sends network stats synchronously affecting flutter build latency.
+ENV['COCOAPODS_DISABLE_STATS'] = 'true'
+use_modular_headers!
+
+project 'Runner', {
+  'Debug' => :debug,
+  'Profile' => :release,
+  'Release' => :release,
+}
+
+def flutter_root
+  generated_xcode_build_settings_path = File.expand_path(File.join('..', 'Flutter', 'Generated.xcconfig'), __FILE__)
+  unless File.exist?(generated_xcode_build_settings_path)
+    raise "#{generated_xcode_build_settings_path} must exist. If you're running pod install manually, make sure flutter pub get is executed first"
+  end
+
+  File.foreach(generated_xcode_build_settings_path) do |line|
+    matches = line.match(/FLUTTER_ROOT\=(.*)/)
+    return matches[1].strip if matches
+  end
+  raise "FLUTTER_ROOT not found in #{generated_xcode_build_settings_path}. Try deleting Generated.xcconfig, then run flutter pub get"
+end
+
+require File.expand_path(File.join('packages', 'flutter_tools', 'bin', 'podhelper'), flutter_root)
+
+flutter_ios_podfile_setup
+
+target 'Runner' do
+  platform :ios, '15.5'
+  use_frameworks!
+ 
+  flutter_install_all_ios_pods File.dirname(File.realpath(__FILE__))
+  target 'RunnerTests' do
+    inherit! :search_paths
+  end
+end
+
+post_install do |installer|
+  installer.pods_project.targets.each do |target|
+    if defined? flutter_additional_ios_build_settings
+      flutter_additional_ios_build_settings(target)
+    end
+
+    if defined? depends_on_flutter
+      target.build_configurations.each do |config|
+        
+        # Permission Handler Config
+        config.build_settings['GCC_PREPROCESSOR_DEFINITIONS'] ||= [
+          '$(inherited)',
+          'PERMISSION_PHOTOS=1',
+          'PERMISSION_CAMERA=1',
+        ]
+        
+        config.build_settings['EXCLUDED_ARCHS[sdk=iphonesimulator*]'] = 'arm64'
+        
+        engine_artifacts_dir = File.join(flutter_root, 'bin', 'cache', 'artifacts', 'engine')
+        debug_framework_dir = File.expand_path(File.join(engine_artifacts_dir, 'ios', 'Flutter.xcframework'), __FILE__)
+        release_framework_dir = File.expand_path(File.join(engine_artifacts_dir, 'ios-release', 'Flutter.xcframework'), __FILE__)
+
+        if depends_on_flutter(target, 'Flutter')
+          if Dir.exist?(debug_framework_dir)
+            Dir.new(debug_framework_dir).each_child do |xcfile|
+              if xcfile.end_with?('-simulator')
+                framework_path = File.join(debug_framework_dir, xcfile)
+                config.build_settings['FRAMEWORK_SEARCH_PATHS[sdk=iphonesimulator*]'] = "\"#{framework_path}\" $(inherited)"
+                header_path = File.join(debug_framework_dir, xcfile, 'Flutter.framework', 'Headers')
+                config.build_settings['HEADER_SEARCH_PATHS[sdk=iphonesimulator*]'] = "\"#{header_path}\" $(inherited)"
+              end
+            end
+          end
+
+          if Dir.exist?(release_framework_dir)
+            Dir.new(release_framework_dir).each_child do |xcfile|
+              if xcfile.start_with?('ios-')
+                framework_path = File.join(release_framework_dir, xcfile)
+                config.build_settings['FRAMEWORK_SEARCH_PATHS[sdk=iphoneos*]'] = "\"#{framework_path}\" $(inherited)"
+                header_path = File.join(release_framework_dir, xcfile, 'Flutter.framework', 'Headers')
+                config.build_settings['HEADER_SEARCH_PATHS[sdk=iphoneos*]'] = "\"#{header_path}\" $(inherited)"
+              end
+            end
+          end
+        end
+      end
+    end
+  end
+end

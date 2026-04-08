@@ -1,0 +1,379 @@
+{
+  "appTitle": "WRStudios",
+  "home": "Trang chủ",
+  "search": "Tìm kiếm",
+  "profile": "Hồ sơ",
+  "login": "Đăng nhập",
+  "register": "Đăng ký",
+  "logout": "Đăng xuất",
+  "settings": "Cài đặt",
+  "language": "Ngôn ngữ",
+  "vietnamese": "Tiếng Việt",
+  "english": "Tiếng Anh",
+  "postDetail": "Chi tiết bài đăng",
+  "contactOwner": "Liên hệ chủ nhà",
+  "callNow": "Gọi ngay",
+  "close": "Đóng",
+  "payment": "Thanh toán",
+  "paymentMethod": "Phương thức thanh toán",
+  "payNow": "Thanh toán ngay",
+  "paymentSuccess": "Thanh toán thành công",
+  "paymentFailed": "Thanh toán thất bại",
+  "requiredLogin": "Vui lòng đăng nhập để tiếp tục",
+  "myPosts": "Tin đăng của tôi",
+  "editProfile": "Chỉnh sửa hồ sơ",
+  "role": "Vai trò",
+  "admin": "Quản trị viên",
+  "user": "Người dùng",
+  "verified": "Đã xác minh",
+  "notVerified": "Chưa xác minh",
+  "phone": "Số điện thoại",
+  "joinedDate": "Tham gia từ",
+  "noData": "Không có dữ liệu",
+  "loading": "Đang tải...",
+  "error": "Có lỗi xảy ra",
+  "retry": "Thử lại",
+  "save": "Lưu",
+  "cancel": "Hủy",
+  "delete": "Xóa",
+  "confirmDelete": "Bạn có chắc chắn muốn xóa không?",
+  "yes": "Có",
+  "no": "Không",
+  "filterSearch": "Bộ lọc tìm kiếm",
+  "amenities": "Tiện ích",
+  "selectAmenities": "Chọn các tiện ích có sẵn",
+  "apply": "Áp dụng",
+  "searchPlaceholder": "Tìm kiếm căn hộ...",
+  "all": "Tất cả",
+  "apartment": "Căn hộ",
+  "house": "Nhà riêng",
+  "room": "Phòng trọ",
+  "office": "Văn phòng",
+  "penthouse": "Penthouse",
+  "welcome": "Chào mừng!",
+  "loginPrompt": "Đăng nhập để đăng tin và lưu yêu thích.",
+  "registration": "Đăng ký",
+  "pleaseLoginToManage": "Vui lòng đăng nhập để quản lý tin đăng",
+  "pleaseLoginToPost": "Vui lòng đăng nhập để đăng tin",
+  "membersOnly": "Chỉ thành viên mới có thể truy cập Membership",
+  "adminOnly": "Chỉ admin mới truy cập Dashboard",
+  "mapApartment": "Bản đồ căn hộ",
+  "chatbotAI": "Trợ lý AI",
+  "adminDashboard": "Bảng điều khiển Admin",
+  "createPost": "Đăng tin mới",
+  "managePremium": "Quản lý gói Premium",
+  "cloudinaryTest": "Cloudinary Test",
+  "pleaseLoginProfile": "Vui lòng đăng nhập để xem hồ sơ",
+  "notUpdated": "Chưa cập nhật",
+  "changeAvatar": "Đổi ảnh đại diện",
+  "deletePhoto": "Xóa ảnh",
+  "fullName": "Họ tên",
+  "updateProfileSuccess": "Cập nhật hồ sơ thành công",
+  "updateProfileError": "Lỗi cập nhật hồ sơ: ",
+  "confirmLogout": "Bạn có chắc chắn muốn đăng xuất?",
+  "contactOwner": "Liên hệ chủ nhà",
+  "phoneNumber": "Số điện thoại",
+  "email": "Email",
+  "description": "Mô tả",
+  "ownerInfo": "Thông tin chủ nhà",
+  "reviews": "Đánh giá",
+  "noReviews": "Chưa có đánh giá",
+  "youRated": "Bạn đã đánh giá",
+  "minutesAgo": "{minutes} phút trước",
+  "@minutesAgo": {
+    "placeholders": {
+      "minutes": {
+        "type": "int"
+      }
+    }
+  },
+  "hoursAgo": "{hours} giờ trước",
+  "@hoursAgo": {
+    "placeholders": {
+      "hours": {
+        "type": "int"
+      }
+    }
+  },
+  "daysAgo": "{days} ngày trước",
+  "@daysAgo": {
+    "placeholders": {
+      "days": {
+        "type": "int"
+      }
+    }
+  },
+  "orderInfo": "Thông tin đơn hàng",
+  "bankTransferContent": "Nội dung chuyển khoản",
+  "bankTransferNote": "Sau khi chuyển khoản xong, bấm nút Thanh toán để xác nhận.",
+  "processing": "Đang xử lý...",
+  "pay": "Thanh toán",
+  "loginToPay": "Vui lòng đăng nhập để thanh toán",
+  "paymentCreated": "Đã tạo đơn thanh toán. Vui lòng chuyển khoản theo hướng dẫn",
+  "paymentError": "Lỗi thanh toán: ",
+  "qrNotFound": "Chưa tìm thấy ảnh QR. Thêm file vào assets/payments hoặc cấu hình URL.",
+  "accountName": "Tên TK",
+  "accountNumber": "Số TK",
+  "posts": "bài",
+  "enterValidEmailBeforeRecovery": "Nhập email hợp lệ trước khi khôi phục mật khẩu",
+  "recoveryEmailSent": "Đã gửi email khôi phục tới {email}",
+  "@recoveryEmailSent": {
+    "placeholders": {
+      "email": {
+        "type": "String"
+      }
+    }
+  },
+  "recoveryError": "Lỗi khôi phục: {error}",
+  "@recoveryError": {
+    "placeholders": {
+      "error": {
+        "type": "Object"
+      }
+    }
+  },
+  "helloWelcome": "Xin chào, Chào mừng!",
+  "dontHaveAccount": "Chưa có tài khoản?",
+  "password": "Mật khẩu",
+  "forgotPassword": "Quên mật khẩu?",
+  "adminFilled": "Đã điền sẵn admin qua dart-define",
+  "loginWithSocial": "Hoặc đăng nhập với mạng xã hội",
+  "passwordsDoNotMatch": "Mật khẩu xác nhận không khớp",
+  "registerSuccess": "Đăng ký thành công. Vui lòng đăng nhập để tiếp tục.",
+  "username": "Tên người dùng",
+  "confirmPassword": "Xác nhận mật khẩu",
+  "welcomeBack": "Chào mừng trở lại!",
+  "alreadyHaveAccount": "Đã có tài khoản?",
+  "manageMembers": "Quản lý thành viên",
+  "manageMembersDesc": "Xem danh sách, khoá/mở",
+  "managePosts": "Quản lý bài viết",
+  "managePostsDesc": "Duyệt, ẩn/hiện, xoá",
+  "manageReviews": "Quản lý đánh giá",
+  "manageReviewsDesc": "Xem/xoá bình luận",
+  "reportsAndStats": "Báo cáo & Thống kê",
+  "systemOverview": "Tổng quan hệ thống",
+  "users": "Người dùng",
+  "aiStats30Days": "Thống kê AI đề xuất (30 ngày)",
+  "totalEvents": "Tổng sự kiện",
+  "postViews": "Lượt xem bài",
+  "addToFavorites": "Thêm yêu thích",
+  "removeFromFavorites": "Bỏ yêu thích",
+  "topCities": "Thành phố xem nhiều",
+  "other": "Khác",
+  "topPosts": "Bài viết xem nhiều",
+  "postLabel": "Post: ",
+  "approved": "Đã duyệt",
+  "pending": "Chưa duyệt",
+  "postApproved": "Đã duyệt bài",
+  "postUnapproved": "Đã bỏ duyệt bài",
+  "updateApprovalError": "Lỗi cập nhật duyệt: {error}",
+  "@updateApprovalError": {
+      "placeholders": {
+          "error": { "type": "Object" }
+      }
+  },
+  "unapprove": "Bỏ duyệt",
+  "approve": "Duyệt",
+  "postDeleted": "Đã xóa bài",
+  "cannotDeletePostHidden": "Không thể xóa, đã ẩn bài",
+  "deleteError": "Lỗi xóa: {error}",
+  "@deleteError": {
+      "placeholders": {
+          "error": { "type": "Object" }
+      }
+  },
+  "reviewDeleted": "Đã xóa đánh giá",
+  "deleteReviewError": "Lỗi xóa đánh giá: {error}",
+  "@deleteReviewError": {
+      "placeholders": {
+          "error": { "type": "Object" }
+      }
+  },
+  "adminRole": "Quản trị viên",
+  "apartmentDetails": "Chi tiết căn hộ",
+  "beTheFirstToPost": "Hãy đăng tin đầu tiên!",
+  "membership": "Membership",
+  "paypalNote": "PayPal sẽ cần server tạo đơn hàng. Hiện đang chạy chế độ demo.",
+  "deletePost": "Xóa tin đăng",
+  "confirmDeletePost": "Bạn có chắc chắn muốn xóa tin đăng này?",
+  "deleteSuccess": "Đã xóa tin đăng thành công",
+  "noPostsYet": "Chưa có tin đăng nào",
+  "createNewPost": "Tạo tin đăng mới",
+  "editPost": "Chỉnh sửa tin đăng",
+  "basicInfo": "Thông tin cơ bản",
+  "propertySpecs": "Thông số căn hộ",
+  "propertyImages": "Hình ảnh căn hộ",
+  "imageUploadHint": "Thêm ít nhất 1 ảnh (Tối đa 10 ảnh)",
+  "addPhoto": "Thêm ảnh",
+  "add": "Thêm",
+  "uploadingImages": "Đang upload ảnh...",
+  "pleaseSelectImage": "Vui lòng chọn ít nhất 1 ảnh",
+  "bedrooms": "Số phòng ngủ",
+  "bathrooms": "Số phòng tắm",
+  "library": "Thư viện",
+  "camera": "Camera",
+  "photoAdded": "Đã thêm ảnh chụp mới",
+  "photoCaptureError": "Lỗi chụp ảnh: {error}",
+  "@photoCaptureError": {
+    "placeholders": {
+      "error": { "type": "Object" }
+    }
+  },
+  "locationError": "Không lấy được vị trí",
+  "locationSuccess": "Đã lấy vị trí hiện tại",
+  "selectLocation": "Chọn vị trí",
+  "addedNImages": "Đã thêm {count} ảnh",
+  "@addedNImages": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "photoPickError": "Lỗi chọn ảnh: {error}",
+  "@photoPickError": {
+    "placeholders": {
+      "error": {
+        "type": "Object"
+      }
+    }
+  },
+  "getCurrentLocation": "Lấy vị trí hiện tại",
+  "noLocation": "Chưa có vị trí",
+  "addressLabel": "Địa chỉ *",
+  "addressHint": "Số nhà, đường, phường...",
+  "cityLabel": "Thành phố *",
+  "cityHint": "TP.HCM",
+  "cityRequired": "Vui lòng nhập thành phố",
+  "propertyType": "Loại bất động sản",
+  "updatePostSuccess": "Cập nhật tin đăng thành công",
+  "createPostSuccess": "Đăng tin thành công",
+  "postLimitReached": "Bạn đã đạt giới hạn {limit} bài đăng. Vui lòng nâng cấp gói thành viên.",
+  "@postLimitReached": {
+    "placeholders": {
+      "limit": {
+        "type": "int"
+      }
+    }
+  },
+  "upgradeNow": "Nâng cấp ngay",
+  "remainingPosts": "Còn lại {count} lượt đăng",
+  "@remainingPosts": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "priceRange": "Khoảng giá (VNĐ)",
+  "areaRange": "Diện tích (m²)",
+  "searchHistory": "Lịch sử tìm kiếm",
+  "clearHistory": "Xóa lịch sử",
+  "maxImagesLimit": "Bạn chỉ được tải lên tối đa {limit} ảnh.",
+  "@maxImagesLimit": {
+    "placeholders": {
+      "limit": {
+        "type": "int"
+      }
+    }
+  },
+  "newest": "Mới nhất",
+  "priceAsc": "Giá tăng",
+  "priceDesc": "Giá giảm",
+  "clearFilter": "Xóa lọc",
+  "filterLabel": "Bộ lọc",
+  "saved": "Đã lưu",
+  "saveSearch": "Lưu tìm kiếm",
+  "searchName": "Tên bộ tìm kiếm",
+  "mySearch": "Tìm kiếm của tôi",
+  "outOfQuotaTitle": "Hết lượt đăng tin",
+  "outOfQuotaMsg": "Vui lòng nâng cấp gói để tăng hạn mức đăng tin.",
+  "forYou": "Dành cho bạn",
+  "amenityAC": "Máy lạnh",
+  "amenityWashingMachine": "Máy giặt",
+  "amenityKitchen": "Tủ bếp",
+  "amenityInternet": "Internet",
+  "amenityCableTV": "Truyền hình cáp",
+  "amenityParking": "Chỗ đậu xe",
+  "amenitySecurity": "Bảo vệ 24/7",
+  "amenityPool": "Hồ bơi",
+  "amenityGym": "Phòng gym",
+  "amenityPlayground": "Khu vui chơi trẻ em",
+  "amenityBalcony": "Ban công/sân thượng",
+  "amenitySecuritySystem": "Hệ thống an ninh",
+  "amenityElevator": "Thang máy",
+  "amenityGarage": "Nhà để xe",
+  "amenityLargeWindows": "Cửa sổ lớn",
+  "amenityFurnished": "Nội thất đầy đủ",
+  "enterAreaForPrice": "Vui lòng nhập diện tích để gợi ý giá",
+  "analyzingMarket": "Đang phân tích dữ liệu thị trường...",
+  "aiPriceSuggestion": "Gợi ý giá từ AI",
+  "basedOn": "Dựa trên diện tích {area}m², loại {type} và {count} tiện ích:",
+  "@basedOn": {
+    "placeholders": {
+      "area": { "type": "String" },
+      "type": { "type": "String" },
+      "count": { "type": "int" }
+    }
+  },
+  "aiAnalyzingImages": "AI đang phân tích ảnh để tìm tiện ích...",
+  "autoAdded": "Đã tự động thêm: {items}",
+  "@autoAdded": {
+    "placeholders": {
+      "items": { "type": "String" }
+    }
+  },
+  "uploadError": "Lỗi upload ảnh: {error}",
+  "@uploadError": {
+    "placeholders": {
+      "error": { "type": "Object" }
+    }
+  },
+  "postTemplates": "Mẫu bài đăng",
+  "applyTemplate": "Đã áp dụng mẫu bài đăng",
+  "titleLabel": "Tiêu đề *",
+  "titleHint": "VD: Căn hộ cao cấp Q1 view đẹp",
+  "descLabel": "Mô tả chi tiết *",
+  "descHint": "Mô tả đầy đủ về căn hộ...",
+  "aiDesc": "AI gợi ý mô tả",
+  "aiDescSuccess": "Đã tạo mô tả tự động",
+  "priceLabel": "Giá thuê (VNĐ) *",
+  "enterValidNumber": "Vui lòng nhập số hợp lệ",
+  "areaLabel": "Diện tích (m²) *",
+  "enterArea": "Vui lòng nhập diện tích",
+  "aiPrice": "Gợi ý giá AI",
+  "contactInfo": "Thông tin liên hệ",
+  "contactPhone": "Số điện thoại liên hệ",
+  "contactEmail": "Email liên hệ",
+  "updatePost": "Cập nhật tin đăng",
+  "postNow": "Đăng tin",
+  "adminPortal": "Cổng quản trị",
+  "viewHome": "Xem trang chủ",
+  "managePayments": "Quản lý thanh toán",
+  "managePaymentsDesc": "Duyệt và theo dõi thanh toán",
+  "managePlansDesc": "Thêm/Sửa/Xóa gói thành viên",
+  "theme": "Giao diện",
+  "themeLight": "Sáng",
+  "themeDark": "Tối",
+  "themeSystem": "Theo hệ thống"
+  ,
+  "revenueStats": "Thống kê doanh thu",
+  "today": "Hôm nay",
+  "last7Days": "7 ngày qua",
+  "last30Days": "30 ngày qua",
+  "transactionsSuccess": "Giao dịch thành công",
+  "transactionsFailed": "Giao dịch thất bại",
+  "transactionsSubmitted": "Giao dịch chờ duyệt"
+  ,
+  "reportPost": "Báo cáo bài viết",
+  "pleaseLoginToReport": "Vui lòng đăng nhập để báo cáo",
+  "reportReasonsSpam": "Spam",
+  "reportReasonsInappropriate": "Nội dung không phù hợp",
+  "reportReasonsFalseInfo": "Thông tin sai lệch",
+  "reportReasonsScam": "Lừa đảo",
+  "reportReasonsOther": "Khác",
+  "reportSubmitted": "Đã gửi báo cáo",
+  "reportError": "Lỗi gửi báo cáo:",
+  "manageContentReports": "Quản lý báo cáo",
+  "manageContentReportsDesc": "Xem/Xử lý báo cáo vi phạm"
+}

@@ -1,0 +1,4 @@
+userId,postId,event,city
+u1,p1,view,TPHCM
+u1,p2,favorite_add,TPHCM
+u2,p3,view,HaNoi

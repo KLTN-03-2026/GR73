@@ -1,0 +1,4 @@
+postId,price,area,bedrooms,bathrooms,isFeatured,city,createdDays
+p1,8000000,45,1,1,0,TPHCM,3
+p2,12000000,65,2,2,1,TPHCM,10
+p3,6000000,35,1,1,0,HaNoi,2

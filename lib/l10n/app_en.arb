@@ -1,0 +1,379 @@
+{
+  "appTitle": "WRStudios",
+  "home": "Home",
+  "search": "Search",
+  "profile": "Profile",
+  "login": "Login",
+  "register": "Register",
+  "logout": "Logout",
+  "settings": "Settings",
+  "language": "Language",
+  "vietnamese": "Vietnamese",
+  "english": "English",
+  "postDetail": "Post Detail",
+  "contactOwner": "Contact Owner",
+  "callNow": "Call Now",
+  "close": "Close",
+  "payment": "Payment",
+  "paymentMethod": "Payment Method",
+  "payNow": "Pay Now",
+  "paymentSuccess": "Payment Success",
+  "paymentFailed": "Payment Failed",
+  "requiredLogin": "Please login to continue",
+  "myPosts": "My Posts",
+  "editProfile": "Edit Profile",
+  "role": "Role",
+  "admin": "Admin",
+  "user": "User",
+  "verified": "Verified",
+  "notVerified": "Not Verified",
+  "phone": "Phone Number",
+  "joinedDate": "Joined Date",
+  "noData": "No Data",
+  "loading": "Loading...",
+  "error": "An error occurred",
+  "retry": "Retry",
+  "save": "Save",
+  "cancel": "Cancel",
+  "delete": "Delete",
+  "confirmDelete": "Are you sure you want to delete?",
+  "yes": "Yes",
+  "no": "No",
+  "filterSearch": "Filter Search",
+  "amenities": "Amenities",
+  "selectAmenities": "Select available amenities",
+  "apply": "Apply",
+  "searchPlaceholder": "Search apartments...",
+  "all": "All",
+  "apartment": "Apartment",
+  "house": "House",
+  "room": "Room",
+  "office": "Office",
+  "penthouse": "Penthouse",
+  "welcome": "Welcome!",
+  "loginPrompt": "Login to post and save favorites.",
+  "registration": "Registration",
+  "pleaseLoginToManage": "Please login to manage posts",
+  "pleaseLoginToPost": "Please login to post",
+  "membersOnly": "Only members can access Membership",
+  "adminOnly": "Only admin can access Dashboard",
+  "mapApartment": "Apartment Map",
+  "chatbotAI": "AI Assistant",
+  "adminDashboard": "Admin Dashboard",
+  "createPost": "Create New Post",
+  "managePremium": "Manage Premium Plans",
+  "cloudinaryTest": "Cloudinary Test",
+  "pleaseLoginProfile": "Please login to view profile",
+  "notUpdated": "Not updated",
+  "changeAvatar": "Change Avatar",
+  "deletePhoto": "Delete Photo",
+  "fullName": "Full Name",
+  "updateProfileSuccess": "Profile updated successfully",
+  "updateProfileError": "Error updating profile: ",
+  "confirmLogout": "Are you sure you want to logout?",
+  "contactOwner": "Contact Owner",
+  "phoneNumber": "Phone Number",
+  "email": "Email",
+  "description": "Description",
+  "ownerInfo": "Owner Information",
+  "reviews": "Reviews",
+  "noReviews": "No reviews yet",
+  "youRated": "You rated",
+  "minutesAgo": "{minutes} minutes ago",
+  "@minutesAgo": {
+    "placeholders": {
+      "minutes": {
+        "type": "int"
+      }
+    }
+  },
+  "hoursAgo": "{hours} hours ago",
+  "@hoursAgo": {
+    "placeholders": {
+      "hours": {
+        "type": "int"
+      }
+    }
+  },
+  "daysAgo": "{days} days ago",
+  "@daysAgo": {
+    "placeholders": {
+      "days": {
+        "type": "int"
+      }
+    }
+  },
+  "orderInfo": "Order Information",
+  "bankTransferContent": "Transfer Content",
+  "bankTransferNote": "After transferring, press Payment button to confirm.",
+  "processing": "Processing...",
+  "pay": "Pay",
+  "loginToPay": "Please login to pay",
+  "paymentCreated": "Payment order created. Please transfer according to instructions",
+  "paymentError": "Payment error: ",
+  "qrNotFound": "QR image not found. Add file to assets/payments or configure URL.",
+  "accountName": "Account Name",
+  "accountNumber": "Account Number",
+  "posts": "posts",
+  "enterValidEmailBeforeRecovery": "Enter valid email before password recovery",
+  "recoveryEmailSent": "Recovery email sent to {email}",
+  "@recoveryEmailSent": {
+    "placeholders": {
+      "email": {
+        "type": "String"
+      }
+    }
+  },
+  "recoveryError": "Recovery error: {error}",
+  "@recoveryError": {
+    "placeholders": {
+      "error": {
+        "type": "Object"
+      }
+    }
+  },
+  "helloWelcome": "Hello, Welcome!",
+  "dontHaveAccount": "Don't have an account?",
+  "password": "Password",
+  "forgotPassword": "Forgot password?",
+  "adminFilled": "Admin pre-filled via dart-define",
+  "loginWithSocial": "Or login with social platforms",
+  "passwordsDoNotMatch": "Passwords do not match",
+  "registerSuccess": "Registration successful. Please login to continue.",
+  "username": "Username",
+  "confirmPassword": "Confirm Password",
+  "welcomeBack": "Welcome Back!",
+  "alreadyHaveAccount": "Already have an account?",
+  "manageMembers": "Manage Members",
+  "manageMembersDesc": "View list, lock/unlock",
+  "managePosts": "Manage Posts",
+  "managePostsDesc": "Approve, hide/show, delete",
+  "manageReviews": "Manage Reviews",
+  "manageReviewsDesc": "View/delete comments",
+  "reportsAndStats": "Reports & Statistics",
+  "systemOverview": "System Overview",
+  "users": "Users",
+  "aiStats30Days": "AI Stats (30 days)",
+  "totalEvents": "Total Events",
+  "postViews": "Post Views",
+  "addToFavorites": "Add to Favorites",
+  "removeFromFavorites": "Remove from Favorites",
+  "topCities": "Top Cities",
+  "other": "Other",
+  "topPosts": "Top Posts",
+  "postLabel": "Post: ",
+  "approved": "Approved",
+  "pending": "Pending",
+  "postApproved": "Post approved",
+  "postUnapproved": "Post unapproved",
+  "updateApprovalError": "Update approval error: {error}",
+  "@updateApprovalError": {
+      "placeholders": {
+          "error": { "type": "Object" }
+      }
+  },
+  "unapprove": "Unapprove",
+  "approve": "Approve",
+  "postDeleted": "Post deleted",
+  "cannotDeletePostHidden": "Cannot delete, post hidden",
+  "deleteError": "Delete error: {error}",
+  "@deleteError": {
+      "placeholders": {
+          "error": { "type": "Object" }
+      }
+  },
+  "reviewDeleted": "Review deleted",
+  "deleteReviewError": "Delete review error: {error}",
+  "@deleteReviewError": {
+      "placeholders": {
+          "error": { "type": "Object" }
+      }
+  },
+  "adminRole": "Admin",
+  "apartmentDetails": "Apartment Details",
+  "beTheFirstToPost": "Be the first to post!",
+  "membership": "Membership",
+  "paypalNote": "PayPal requires a server to create orders. Currently running in demo mode.",
+  "deletePost": "Delete Post",
+  "confirmDeletePost": "Are you sure you want to delete this post?",
+  "deleteSuccess": "Post deleted successfully",
+  "noPostsYet": "No posts yet",
+  "createNewPost": "Create New Post",
+  "editPost": "Edit Post",
+  "basicInfo": "Basic Information",
+  "propertySpecs": "Property Specifications",
+  "propertyImages": "Property Images",
+  "imageUploadHint": "Add at least 1 image (Max 10 images)",
+  "addPhoto": "Add Photo",
+  "add": "Add",
+  "uploadingImages": "Uploading images...",
+  "pleaseSelectImage": "Please select at least 1 image",
+  "bedrooms": "Bedrooms",
+  "bathrooms": "Bathrooms",
+  "library": "Library",
+  "camera": "Camera",
+  "photoAdded": "Photo added",
+  "photoCaptureError": "Photo capture error: {error}",
+  "@photoCaptureError": {
+    "placeholders": {
+      "error": { "type": "Object" }
+    }
+  },
+  "locationError": "Could not get location",
+  "locationSuccess": "Location acquired",
+  "selectLocation": "Select Location",
+  "addedNImages": "Added {count} images",
+  "@addedNImages": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "photoPickError": "Error picking photos: {error}",
+  "@photoPickError": {
+    "placeholders": {
+      "error": {
+        "type": "Object"
+      }
+    }
+  },
+  "getCurrentLocation": "Get Current Location",
+  "noLocation": "No location",
+  "addressLabel": "Address *",
+  "addressHint": "House number, street, ward...",
+  "cityLabel": "City *",
+  "cityHint": "HCMC",
+  "cityRequired": "Please enter city",
+  "propertyType": "Property Type",
+  "updatePostSuccess": "Post updated successfully",
+  "createPostSuccess": "Post created successfully",
+  "postLimitReached": "You have reached the limit of {limit} posts. Please upgrade your membership.",
+  "@postLimitReached": {
+    "placeholders": {
+      "limit": {
+        "type": "int"
+      }
+    }
+  },
+  "upgradeNow": "Upgrade Now",
+  "remainingPosts": "{count} posts remaining",
+  "@remainingPosts": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "priceRange": "Price Range (VND)",
+  "areaRange": "Area (m²)",
+  "searchHistory": "Search History",
+  "clearHistory": "Clear History",
+  "maxImagesLimit": "You can only upload a maximum of {limit} images.",
+  "@maxImagesLimit": {
+    "placeholders": {
+      "limit": {
+        "type": "int"
+      }
+    }
+  },
+  "newest": "Newest",
+  "priceAsc": "Price Asc",
+  "priceDesc": "Price Desc",
+  "clearFilter": "Clear Filter",
+  "filterLabel": "Filter",
+  "saved": "Saved",
+  "saveSearch": "Save Search",
+  "searchName": "Search Name",
+  "mySearch": "My Search",
+  "outOfQuotaTitle": "Out of Quota",
+  "outOfQuotaMsg": "Please upgrade your plan to increase post quota.",
+  "forYou": "For You",
+  "amenityAC": "Air Conditioner",
+  "amenityWashingMachine": "Washing Machine",
+  "amenityKitchen": "Kitchen Cabinet",
+  "amenityInternet": "Internet",
+  "amenityCableTV": "Cable TV",
+  "amenityParking": "Parking",
+  "amenitySecurity": "Security 24/7",
+  "amenityPool": "Swimming Pool",
+  "amenityGym": "Gym",
+  "amenityPlayground": "Kids Playground",
+  "amenityBalcony": "Balcony/Terrace",
+  "amenitySecuritySystem": "Security System",
+  "amenityElevator": "Elevator",
+  "amenityGarage": "Garage",
+  "amenityLargeWindows": "Large Windows",
+  "amenityFurnished": "Fully Furnished",
+  "enterAreaForPrice": "Please enter area to get price suggestion",
+  "analyzingMarket": "Analyzing market data...",
+  "aiPriceSuggestion": "AI Price Suggestion",
+  "basedOn": "Based on area {area}m², type {type} and {count} amenities:",
+  "@basedOn": {
+    "placeholders": {
+      "area": { "type": "String" },
+      "type": { "type": "String" },
+      "count": { "type": "int" }
+    }
+  },
+  "aiAnalyzingImages": "AI is analyzing images to find amenities...",
+  "autoAdded": "Automatically added: {items}",
+  "@autoAdded": {
+    "placeholders": {
+      "items": { "type": "String" }
+    }
+  },
+  "uploadError": "Upload error: {error}",
+  "@uploadError": {
+    "placeholders": {
+      "error": { "type": "Object" }
+    }
+  },
+  "postTemplates": "Post Templates",
+  "applyTemplate": "Template applied",
+  "titleLabel": "Title *",
+  "titleHint": "Ex: Luxury Apartment in D1",
+  "descLabel": "Detailed Description *",
+  "descHint": "Full description of the apartment...",
+  "aiDesc": "AI Description Suggestion",
+  "aiDescSuccess": "Description generated automatically",
+  "priceLabel": "Rent Price (VND) *",
+  "enterValidNumber": "Please enter a valid number",
+  "areaLabel": "Area (m²) *",
+  "enterArea": "Please enter area",
+  "aiPrice": "AI Price",
+  "contactInfo": "Contact Information",
+  "contactPhone": "Contact Phone",
+  "contactEmail": "Contact Email",
+  "updatePost": "Update Post",
+  "postNow": "Post Now",
+  "adminPortal": "Admin Portal",
+  "viewHome": "View Home",
+  "managePayments": "Manage Payments",
+  "managePaymentsDesc": "Approve and track payments",
+  "managePlansDesc": "Add/Edit/Delete membership plans",
+  "theme": "Theme",
+  "themeLight": "Light",
+  "themeDark": "Dark",
+  "themeSystem": "System default"
+  ,
+  "revenueStats": "Revenue Statistics",
+  "today": "Today",
+  "last7Days": "Last 7 Days",
+  "last30Days": "Last 30 Days",
+  "transactionsSuccess": "Successful Transactions",
+  "transactionsFailed": "Failed Transactions",
+  "transactionsSubmitted": "Submitted Transactions"
+  ,
+  "reportPost": "Report Post",
+  "pleaseLoginToReport": "Please login to report",
+  "reportReasonsSpam": "Spam",
+  "reportReasonsInappropriate": "Inappropriate content",
+  "reportReasonsFalseInfo": "False information",
+  "reportReasonsScam": "Scam",
+  "reportReasonsOther": "Other",
+  "reportSubmitted": "Report submitted",
+  "reportError": "Report error:",
+  "manageContentReports": "Manage Reports",
+  "manageContentReportsDesc": "View/handle violation reports"
+}
